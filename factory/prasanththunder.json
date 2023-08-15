@@ -1,0 +1,9 @@
+{
+	"name": "prasanththunder",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4bace40e-ee4c-4967-8aec-fc51eb013a7e",
+		"tenantId": "b1aae949-a5ef-4815-b7af-f7c4aa546b28"
+	}
+}

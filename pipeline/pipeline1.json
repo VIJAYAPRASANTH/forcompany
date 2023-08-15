@@ -1,0 +1,29 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "var",
+					"value": "1"
+				}
+			}
+		],
+		"variables": {
+			"var": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-08-04T08:45:12Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
