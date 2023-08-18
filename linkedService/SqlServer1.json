@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=10.100.2.12;initial catalog=etl_metadata;user id=Blend1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwYzk5MGU3Mi1kN2Q3LTRjODAtOTU1Ni1mNjE5MDFmZTY3ZTMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-selfhost",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
